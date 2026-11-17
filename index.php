@@ -1,8 +1,8 @@
 <?php
 /**
- * /JB/ 解析接口聚合索引
+ * 解析接口聚合索引（位于站点根目录，与 1.php 同级）
  * 由 scriptcat.org 油猴脚本转换，仅保留实测可用的解析源
- * 用法：/JB/<脚本ID>.php?url=<官方视频页地址>
+ * 用法：/<脚本ID>.php?url=<官方视频页地址>
  */
 header('Content-Type: text/html; charset=utf-8');
 $list = [
@@ -42,7 +42,7 @@ td,th{border:1px solid #e3e3e3;padding:8px 10px;text-align:left}th{background:#f
 a{color:#0366d6;text-decoration:none}code{background:#f3f3f3;padding:2px 5px;border-radius:3px}
 </style></head><body>
 <h2>JB 解析接口聚合（共 19 个）</h2>
-<p>用法：<code>/JB/脚本ID.php?url=官方视频页地址</code>，返回 JSON <code>{"code":200,"url":"...","ext":"m3u8|mp4|player"}</code>。</p>
+<p>用法：<code>/脚本ID.php?url=官方视频页地址</code>，与 <a href="1.php">1.php</a> 同级，返回 JSON <code>{"code":200,"url":"...","ext":"m3u8|mp4|player"}</code>。</p>
 <table><tr><th>接口</th><th>原脚本名</th><th>可用解析源</th></tr>
 <tr><td><a href="1118.php">1118.php</a></td><td>文库下载器|百度网盘直链解析下载|全网VIP视频解析无广告播放，全网独创自由选择自动解析接口|短视频无水印下载|淘宝、天</td><td>4</td></tr>
 <tr><td><a href="1254.php">1254.php</a></td><td>💯 懒人专用系列 ——— 全网 VIP 视频破解去广告</td><td>2</td></tr>
